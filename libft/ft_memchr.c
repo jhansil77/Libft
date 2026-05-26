@@ -2,6 +2,7 @@
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
+	unsigned char *found;
 	unsigned char	*p;
 	size_t	i;
 
@@ -10,7 +11,10 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	while (i < n)
 	{
 		if (p[i] == (unsigned char)c)
-			return ((void *)&p[i]);
+		{
+			found = p + 1;
+			return (found);
+		}
 		i++;
 	}
 	return (NULL);
