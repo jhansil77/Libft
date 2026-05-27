@@ -18,12 +18,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	ft_strlcpy(ptr, s + start, len + 1);
 	return (ptr);
 }
-// int main()
-// {
-// 	char *texto = "hola mundo";
-// 	char *result;
-
-// 	result = ft_substr(texto, 3, 50);
-// 	printf("%s", result);
-// 	return (0);
-// }
