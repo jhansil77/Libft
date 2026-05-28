@@ -6,6 +6,7 @@
 #include <limits.h>
 #include <stdint.h>
 #include <stdio.h>
+#include <unistd.h>
 //Aqui van los prototipos
 //primera parte:
 int	ft_isalpha(int	c);

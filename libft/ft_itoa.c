@@ -23,7 +23,7 @@ static	int ft_len_int(long n)
 char	*ft_itoa(int n)
 {
 	char	*number;
-	size_t	len;
+	int	len;
 	long	new_nb;
 
 	new_nb = n;
@@ -41,8 +41,8 @@ char	*ft_itoa(int n)
 	}
 	while (new_nb > 0)
 	{
-		len --;
-		number[len] = new_nb % 10 + '0';
+		len--;
+		number[len] = (new_nb % 10) + '0';
 		new_nb = new_nb / 10;
 	}
 	return (number);

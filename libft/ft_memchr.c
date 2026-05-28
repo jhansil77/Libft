@@ -12,7 +12,7 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	{
 		if (p[i] == (unsigned char)c)
 		{
-			found = p + 1;
+			found = p + i;
 			return (found);
 		}
 		i++;
