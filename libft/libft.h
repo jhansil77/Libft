@@ -8,6 +8,18 @@
 #include <stdio.h>
 #include <unistd.h>
 //Aqui van los prototipos
+
+//Parte 3
+typedef	struct s_list
+{
+	void	*content;
+	struct	s_list	*next;
+}	t_list;
+
+t_list	*ft_lstnew(void *content);
+void	ft_lstadd_front(t_list **lst, t_list *new);
+
+
 //primera parte:
 int	ft_isalpha(int	c);
 int	ft_isdigit(int	c);
