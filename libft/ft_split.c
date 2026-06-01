@@ -1,6 +1,6 @@
 #include "libft.h"
 
-static	int ft_count_words(const char *str, char c)
+static int	ft_count_words(const char *str, char c)
 {
 	int	i;
 	int	words;
@@ -21,7 +21,7 @@ static	int ft_count_words(const char *str, char c)
 	return (words);
 }
 
-static	int len_words_array(char const *str, char c)
+static int	len_words_array(char const *str, char c)
 {
 	int	i;
 
@@ -31,7 +31,7 @@ static	int len_words_array(char const *str, char c)
 	return (i);
 }
 
-static	void free_mem(char **s, int i)
+static void	free_mem(char **s, int i)
 {
 	while (i >= 0)
 	{
@@ -40,11 +40,12 @@ static	void free_mem(char **s, int i)
 	}
 	free(s);
 }
-static	int create_words(char **arr, const char *str, char c)
+
+static int	create_words(char **arr, const char *str, char c)
 {
 	int	i;
 	int	j;
-	int len;
+	int	len;
 
 	i = 0;
 	j = 0;

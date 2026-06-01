@@ -2,18 +2,19 @@
 
 static	size_t	ft_str_len(const char *s)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
 	while (s[i])
 		i++;
 	return (i);
 }
+
 size_t	ft_strlcat(char *dest, const char *src, size_t n)
 {
 	size_t	dest_len;
 	size_t	src_len;
-	size_t i;
+	size_t	i;
 
 	i = 0;
 	src_len = ft_str_len(src);

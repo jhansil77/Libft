@@ -4,7 +4,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
 	size_t	s_len;
 	char	*ptr;
-	int	i;
+	int		i;
 
 	if (!s || !f)
 		return (NULL);

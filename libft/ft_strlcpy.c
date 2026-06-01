@@ -9,10 +9,11 @@ static	size_t	ft_str_len(const char *s)
 		i++;
 	return (i);
 }
+
 size_t	ft_strlcpy(char *dest, const char *src, size_t n)
 {
-	size_t i;
-	size_t src_len;
+	size_t	i;
+	size_t	src_len;
 
 	src_len = ft_str_len(src);
 	if (n == 0)

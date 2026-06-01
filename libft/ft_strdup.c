@@ -13,7 +13,7 @@ static size_t	ft_str_len(const char *s)
 static void	ft_b_zero(void *s, size_t n)
 {
 	unsigned char	*ptr;
-	size_t	i;
+	size_t			i;
 
 	ptr = (unsigned char *)s;
 	i = 0;
@@ -23,6 +23,7 @@ static void	ft_b_zero(void *s, size_t n)
 		i++;
 	}
 }
+
 static void	*ft_c_alloc(size_t count, size_t size)
 {
 	void	*ptr;
@@ -42,9 +43,9 @@ static void	*ft_c_alloc(size_t count, size_t size)
 
 char	*ft_strdup(const char *s1)
 {
-	size_t s1_len;
-	char *copy;
-	size_t i;
+	size_t	s1_len;
+	char	*copy;
+	size_t	i;
 
 	s1_len = ft_str_len(s1) + 1;
 	copy = (char *)ft_c_alloc(s1_len, 1);

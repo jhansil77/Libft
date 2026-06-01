@@ -1,6 +1,6 @@
 #include "libft.h"
 
-static	int ft_len_int(long n)
+static int	ft_len_int(long n)
 {
 	int	len;
 
@@ -23,7 +23,7 @@ static	int ft_len_int(long n)
 char	*ft_itoa(int n)
 {
 	char	*number;
-	int	len;
+	int		len;
 	long	new_nb;
 
 	new_nb = n;

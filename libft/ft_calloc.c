@@ -3,7 +3,7 @@
 static void	ft_b_zero(void *s, size_t n)
 {
 	unsigned char	*ptr;
-	size_t	i;
+	size_t			i;
 
 	ptr = (unsigned char *)s;
 	i = 0;
@@ -13,6 +13,7 @@ static void	ft_b_zero(void *s, size_t n)
 		i++;
 	}
 }
+
 void	*ft_calloc(size_t count, size_t size)
 {
 	void	*ptr;

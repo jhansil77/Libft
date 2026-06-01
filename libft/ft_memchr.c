@@ -2,9 +2,9 @@
 
 void	*ft_memchr(const void *s, int c, size_t n)
 {
-	unsigned char *found;
+	unsigned char	*found;
 	unsigned char	*p;
-	size_t	i;
+	size_t			i;
 
 	i = 0;
 	p = (unsigned char *)s;
