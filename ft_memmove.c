@@ -20,7 +20,7 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 
 	d = (unsigned char *)dest;
 	s = (const unsigned char *)src;
-	if (d > s && d < s + n)
+	if (s < d)
 	{
 		while (n > 0)
 		{
@@ -34,7 +34,6 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 		while (i < n)
 		{
 			d[i] = s[i];
-			i++;
 		}
 	}
 	return (dest);
