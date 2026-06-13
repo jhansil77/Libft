@@ -114,31 +114,3 @@ re:
 	@$(MAKE) all
 
 .PHONY: all bonus clean fclean re
-
-
-# all: $(name)
-
-# $(name): $(MANDATORY_OBJ)
-# 	@$(AR) $(ARFLAGS) $(name) $(MANDATORY_OBJ)
-# 	@echo "✓ Library created: $(name)"
-
-# bonus: $(ALL_OBJ)
-# 	@$(AR) $(ARFLAGS) $(name) $(ALL_OBJ)
-# 	@echo "✓ Library with bonus created: $(name)"
-
-# $(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HEADER)
-# 	@mkdir -p $(OBJ_DIR)
-# 	@$(CC) $(CFLAGS) -c $< -o $@
-# 	@echo "⚙ Compiling: $<"
-
-# clean:
-# 	@$(RM) -r $(OBJ_DIR)
-# 	@echo "✓ Object files removed"
-
-# fclean: clean
-# 	@$(RM) $(name)
-# 	@echo "✓ Library removed"
-
-# re: fclean all
-
-# .PHONY: all bonus clean fclean re
