@@ -91,7 +91,7 @@ $(NAME): $(MANDATORY_OBJ)
 	@$(AR) $(ARFLAGS) $(NAME) $(MANDATORY_OBJ)
 	@echo "✓ Library created: $(NAME)"
 
-bonus: $(ALL_OBJ)
+bonus: $(BONUS_OBJ)
 	@$(AR) $(ARFLAGS) $(NAME) $(ALL_OBJ)
 	@echo "✓ Library with bonus created: $(NAME)"
 
@@ -108,7 +108,6 @@ fclean: clean
 	@$(RM) $(NAME)
 	@echo "✓ Library removed"
 
-# CORREGIDO: Forzamos a que fclean termine del todo antes de llamar a all
 re:
 	@$(MAKE) fclean
 	@$(MAKE) all
