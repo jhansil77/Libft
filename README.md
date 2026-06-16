@@ -35,6 +35,16 @@ Funciones para manipular estructuras de datos de tipo lista enlazada simple (`t_
 *   `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstlast`, `ft_lstadd_back`, `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`.
 
 ---
+## 🤖 5. Recursos de Apoyo e Investigación
+
+Para el desarrollo de este proyecto y la comprensión de la lógica de bajo nivel, se han utilizado tres fuentes de información clave:
+
+1. **Manuales de Linux (`man`)**: Consulta directa en la terminal del campus (`man strlen`, `man memmove`, etc.) para comprobar los prototipos oficiales de la `libc`, el comportamiento de los parámetros y las especificaciones exactas del valor de retorno.
+2. **Inteligencia Artificial (IA)**: Utilizada como tutor técnico interactivo para desatascar conceptos complejos, visualizar el movimiento de memoria en solapamientos (`ft_memmove`), revisar la gestión de punteros en listas enlazadas y corregir errores de desbordamiento en condiciones de bucles.
+3. **Documentación Online**:
+   * **Cplusplus.com / Cprogramming.com**: Referencia para ver ejemplos prácticos de funciones estándar.
+   * **Python tutor**: Soporte visual para comprender linea a linea como se ejecuta el programa.
+   * **Tutorialspoint**: Repaso teórico sobre la interacción del sistema operativo con los descriptores de archivo (`fd`).
 
 ## Instrucciones
 
