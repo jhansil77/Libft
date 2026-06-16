@@ -30,7 +30,7 @@ Funciones que no pertenecen a la librería estándar o que se han adaptado para 
 *   `ft_strmapi` y `ft_striteri`: Aplican una función a cada carácter de un string.
 *   `ft_putchar_fd`, `ft_putstr_fd`, `ft_putendl_fd`, `ft_putnbr_fd`: Permiten escribir caracteres, strings o números en un descriptor de archivo específico.
 
-### 3. Funciones de listas enlazadas (Parte Bonus)
+### 3. Funciones de listas enlazadas
 Funciones para manipular estructuras de datos de tipo lista enlazada simple (`t_list`):
 *   `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstlast`, `ft_lstadd_back`, `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`.
 
