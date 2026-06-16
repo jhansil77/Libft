@@ -6,7 +6,6 @@
 
 **Libft** es el primer proyecto oficial del currículo principal de 42. El objetivo principal es reprogramar una serie de funciones estándar de la librería de C (`libc`), así como funciones adicionales que no están presentes en el sistema de forma nativa, para comprender a fondo el funcionamiento de la memoria, la manipulación de strings y la gestión de estructuras de datos básicas.
 
-Este proyecto sirve como la base de herramientas personal que se utilizará en prácticamente todos los proyectos futuros de C en la escuela, ya que el uso de las funciones estándar del sistema está estrictamente limitado.
 
 ---
 
