@@ -25,12 +25,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-
-int main()
-{
-	char *t = "hola 42 madrid";
-	char *res;
-	res = ft_strrchr(t, 'o');
-	printf("[%s]\n", res);
-	return 0;
-}
