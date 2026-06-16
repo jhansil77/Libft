@@ -39,7 +39,7 @@ Funciones para manipular estructuras de datos de tipo lista enlazada simple (`t_
 ## Instrucciones
 
 ### Requisitos previos
-*   Compilador `gcc` o `clang`.
+*   Compilador `cc` o `clang`.
 *   Herramienta `make`.
 
 ### Compilación e Instalación
