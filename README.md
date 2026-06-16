@@ -35,7 +35,7 @@ Funciones para manipular estructuras de datos de tipo lista enlazada simple (`t_
 *   `ft_lstnew`, `ft_lstadd_front`, `ft_lstsize`, `ft_lstlast`, `ft_lstadd_back`, `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`.
 
 ---
-## 🤖 5. Recursos de Apoyo e Investigación
+## 5. Recursos de Apoyo e Investigación
 
 Para el desarrollo de este proyecto y la comprensión de la lógica de bajo nivel, se han utilizado tres fuentes de información clave:
 
